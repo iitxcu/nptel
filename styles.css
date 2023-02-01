@@ -1,0 +1,128 @@
+/* ***********************************top container************************ */
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 80px;
+}
+
+/* ***********************************top container************************ */
+
+body {
+  margin: 0;
+  text-align:  center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin : 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+/* ***********************************middle container************************ */
+
+.middle-container {
+  margin: 100px 0;
+}
+
+/* ***********************************middle container************************ */
+
+.nptel-logo{
+    border-radius: 50%;
+    position: relative;
+    width: 169px;
+}
+
+
+h3 {
+ font-family: 'Montserrat', sans-serif;
+ color: #11999E;
+}
+
+p{
+  line-height: 1;
+}
+
+/* **********************table  ***************************/
+table, th, td {
+  border: 2px solid white;
+  border-style: dashed;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #96D4D4;
+  padding: 5px;
+}
+
+tr:nth-child(odd) {
+  background-color: #D6EEEE;
+}
+
+/* *****************week link **********************/
+
+.week-link{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  margin: 5px 5px;
+  text-decoration: none;
+}
+
+
+/* ***********************************bottom container************************ */
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+/* ***********************************bottom container************************ */
+
+
+/* link click bottom effect*/
+.footer-link{
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #11999E;
+}
+
+/* contact me button clickable */
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #7FE9DE, #7FE9DE);
+  background-image: linear-gradient(to bottom, #7FE9DE, #7FE9DE);
+  text-decoration: none;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.7rem;
+  padding: 20px 0;
+}
